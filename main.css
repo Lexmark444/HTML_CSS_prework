@@ -1,3 +1,236 @@
-body {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+body, html { 
+    height: 100%;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+nav li {
+    display: inline;
+    margin: 20px; 
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: #555555;
+    text-decoration: none;
+}
+
+nav a:hover{ 
+    color: white;
+}
+
+nav {
+    display: block;
+    background-color:black;
+    color:whitesmoke;
+}
+
+
+.banner {
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+      
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.banner h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    font-size: 30vh;
+    text-align: center;
+    color: white;
+    line-height: 100vh;
+    mix-blend-mode:l screen;
+    
+    
+} 
+
+
+#main{
+    padding-top: 105vh;
+    
+}
+
+
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align:center;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 5px;
+}
+
+.side-articles, .formdiv{
+    background-color:lightsteelblue;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#aboutme {
+    background-color: lightsteelblue;
+    float: right;
+    width: 82%;
+    margin-right: 10px;
+}
+
+.main-articles{
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.formdiv{
+    background-color:lightsteelblue;
+    text-align: center;
+    padding: 20px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 5px;
+}
+
+
+
+#profile-image{
+    width: 107px;
+    border-radius: 50%;
+    border: 5px inset rgb(89, 246, 252);
+    text-align:center;
+
+}
+
+
+
+#profile{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+
+}
+
+textarea, input{
+    background-color: rgb(139, 183, 211);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+textarea{
+    width: 250px;
+    height: 180px;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+strong{
+    font-size: x-large;
+}
+
+#normaltext {
+    font-size: large;
+}
+
+p {
+    font-size:larger
+}
+
+
+figure {
+    float: left;    
+    margin: 10px 10px 10px 10px;
+}
+
+#comp {
+    float: right;    
+    margin: 0 15px 0 0;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: -5vh;
+    
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+
+footer hr{
+    margin-top:10px;
+    height:15px;
+    border:0px;
+    box-shadow: inset 0 12px 12px -12px white
+}
+
+#arrow {
+    transform: scaleX(-1);
 }
